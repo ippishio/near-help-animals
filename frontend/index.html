@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help animals!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/near-api-js@0.41.0/dist/near-api-js.min.js"></script>
+    <script type = "module" src="index.js"></script>
+ <div id = "cat">
+    <img src="./cat.gif" style="width:100%">
+    <h1>Donate to help 🙋 homeless animals!</h1>
+    <h3>All of the funds raised during the company will be used to buy food for homeless dogs and cats. Part of the proceeds will also go to animal shelters
+         😺️❣️</h3>
+</div>
+    <button id="login">Login</button>
+    <button id="logout">Logout</button>
+<div id="leftblock">
+    <div id="raised">
+    <a>Already raised: </a> <br>
+    <progress id="progress" max="300" value="0"></progress>
+    <a id="total">0/300 Ⓝ</a>
+</div>
+<div id="sendbox">
+    <button id="pay">Send</button>
+    <input id="amount" pattern = "^[ 0-9]+$"autofocus required placeholder="Amount...">
+   </div>
+</div>
+<div id = "creds">
+ <img id="logo" src ="./logo.png" style="width: 30px"><a id ="nick">ippishio#8483</a>
+</div>
+</body>
+</html>
